@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="barra-tarefas"> <!--elaboração da barra de tarefas com os links para as páginas-->
+        <h1 class="titulo-bt">Maycon Douglas <!--identificador-->
+                              RU: 3903722
+        </h1>
+        <nav>
+            <ul class="botoes"> <!-- botões direionadores para as páginas de informações-->
+                <li class="btn-barra"><a href="#home">Início</a></li>
+                <li class="btn-barra"><a href="#sobre">Sobre Mim</a></li>
+                <li class="btn-barra"><a href="#formacao">Formação</a></li>
+                <li class="btn-barra"><a href="#projetos">Projetos</a></li>
+                <li class="btn-barra"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home"> <!--página inicial (perfil)-->
+        <div>
+            <h2>Maycon Douglas</h2>
+        </div>
+        <img class="perfil" src="imagens/emblem.png" alt="Minha Imagem">
+    </section>
+    <section id="sobre"> <!--requisito I - sobre mim-->
+        <h2 class="titulo-sobre">Sobre Mim</h2>
+        <div class="texto-sobre">
+            <p>Tenho 23 anos, natural de Planaltina de Goiás, atualmente militar e estudante 
+                de Análise e Desenvolvimento de Sistemas no Centro Universitário Uninter</p>
+            <p>Após o término da minha estadia nas Forças Armadas, pretendo exercer a função de desenvolvedor na Anonymous.</p>
+            <p>Tenho pra mim que meus conhecimentos militares, juntamente com a habilidade adquirida no curso, me ajudarão
+                a dominar o cibermundo. (contém ironia Prof xD)
+            </p>
+        </div>
+    </section> <!-- requisito II - formação -->
+        <h2 class="titulo-formacao">Formação</h2>
+        <div class="texto-formacao"><ol> <!-- lista ordenada -->
+            <li>Análise e Desenvolvimento de Sistemas (cursando)</li>
+            <li>Manutenção de Software e Hardware</li>
+            <li>Gerenciamento de protocolo de redes</li>
+            <li>Curso de Formação de Cabos do Exército Brasileiro - 2019</li>
+            <li>Curso de Formação de Sargento Combatente Temporário do Exército Brasileiro - 2021</li>
+            <li>Estagio Setorial de Caçador de Corpo de Tropa - 2022</li>
+            <li>Estágio Setorial de Operador do SiCaPEx - 2023</li>
+            <li>Estágio Setorial de Planejamento Financeiro - 2023</li>
+        </ol>
+        </div>
+
+    </section>
+    <section id="projetos"> <!-- requisito III - projetos/portifólio -->
+        <h2 class="titulo-projetos">Meus Projetos</h2>
+        <div class="projetos-box">
+            <div class="info">
+                <h4>Projeto 1 - Python</h4>
+                <p>Elaboração de um sistema de controle de estoque para uma loja de Bicicletas</p>
+            </div>
+            <img src="imagens/python.jpg" alt="python">
+        </div>
+        <div class="projetos-box">
+            <div class="info">
+                <h4>Projeto 2 - MySQL</h4>
+                <p>Criação de um banco de dados para armazenamento do controle de estoque citado acima</p>
+            </div>
+            <img src="imagens/sql.jpg" alt="sql">
+        </div>
+        <div class="projetos-box">
+            <div class="info">
+                <h4>Projeto 3 - Caçador Militar</h4>
+                <p>Aluno 01 da turma de 2022 do Estágio Setorial de Caçador de Corpo de Tropa do Exército. Lema: "Um tiro, uma morte."</p>
+            </div>
+            <img src="imagens/cacador.jpg" alt="cacador">
+        </div>
+    </section>
+    <section id="contato"> <!-- requisito IV - contato -->
+        <h2 class="titulo-contato">Contato</h2>
+        <div class="contato-box">
+            <form action="">
+                <input class="input-contato" placeholder="Nome">
+                <input class="input-contato" placeholder="Telefone">
+                <textarea class="mensagem-contato" name="" id="" placeholder="Mensagem"></textarea>
+                <div class="btn-envio"><input type="submit" value="Enviar"></div>
+            </form>
+    </section>
+</body>
+
+</html>

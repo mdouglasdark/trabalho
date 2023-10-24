@@ -1,0 +1,202 @@
+
+body {
+    background-color: #8DDFCB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-tarefas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #071952;
+    height: 10vh;
+    width: 100%;
+}
+
+.titulo-bt {
+    color: aliceblue;
+}
+
+.botoes {
+    list-style: none;
+    display: flex;
+}
+
+.barra-tarefas a {
+    text-decoration: none;
+}
+
+.btn-barra a {
+    text-decoration: none;
+    color: #F0F0F0;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-flex;
+}
+
+.btn-barra:hover a {
+    color: #B9B4C7;
+    transform: scale(1.15);
+}
+
+#home {
+    padding: 180px 4% 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 280px;
+}
+
+#home h2 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#home p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.perfil {
+    width: 420px;
+}
+
+#sobre 
+/* apresentação pessoal */
+{
+    padding: 180px 10% 0 10%;
+    gap: 50px;
+}
+
+.titulo-sobre {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+.texto-sobre {
+    font-size: 18px;
+    font-weight: bold;
+    align-items: left;
+}
+
+
+.titulo-formacao {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+.texto-formacao {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.titulo-projetos {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 80px;
+    margin-bottom: 25px;
+}
+
+/* área de projetos */
+
+.projetos-box {
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.projetos-box h4 {
+    font-size: 30px;
+}
+
+.projetos-box p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.projetos-box img {
+    width: 25%;
+}
+
+#contato {
+    padding: 180px 10% 0 10%;
+}
+
+.titulo-contato {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 80px;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+}
+/* campo para inserir a mensagem */
+.input-contato .mensagem-contato {
+    width: 100%;
+    background-color: #071952;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    color: #B9B4C7;
+    font-size: 18px;
+}
+
+/* área de contato */
+#contato textarea {
+    height: 180px;
+    max-width: 600px;
+    resize: none;
+}
+
+.btn-envio {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.btn-envio input {
+    background-color:  #071952;
+    color: aliceblue;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 120px;
+    transition: 0.4s;
+}
+/* cor do botão de enviar */
+.btn-envio input:hover {
+    color: #B9B4C7;
+    transform: scale(1.08);
+}
